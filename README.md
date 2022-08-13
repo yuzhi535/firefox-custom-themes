@@ -11,7 +11,7 @@ Just refer to [this repository](https://github.com/Tnings/CompactFox). Added the
 
 ![](images/Screenshot%202022-08-13%20at%2012.04.16.png)
 
-![](images/Screenshot%202022-08-13%20at%2012.09.17.jpeg)
+![](images/Screenshot%202022-08-13%20at%2012.09.17.png)
 
 ## Generic Installation
 
