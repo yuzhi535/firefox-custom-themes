@@ -15,10 +15,6 @@ Just refer to [this repository](https://github.com/Tnings/CompactFox). Added the
 
 ## Generic Installation
 
-* Go to the wanted theme and click the download button.
-* You should now be on the Github page for that topic.
-* Below you should see a guide on how to install that particular theme and a few preview pictures. Anyway, here are some common steps for all themes.
-
 1. Download the theme with the big green button: "Code" >> Download.zip
 2. Open `about:config` page.
 3. A dialog will warn you, but ignore it, ~~just do it~~ press the `I accept the risk!` button.
