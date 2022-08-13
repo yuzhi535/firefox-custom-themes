@@ -4,6 +4,9 @@ Due to the height of top border is too big, I wanna make it smaller.
 
 Just refer to [this repository](https://github.com/Tnings/CompactFox). Added the function of automatically showing the close button. 
 
+**Note**
+> I use dark mode, so the color is adaptive to the dark mode. 
+
 ## screenshots
 
 ![](images/Screenshot%202022-08-13%20at%2012.04.16.png)
