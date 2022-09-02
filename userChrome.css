@@ -1,13 +1,15 @@
+:root {
+    --tab-min-height: 20px !important;
+    --tab-max-height: 20px !important;
+    --toolbarbutton-inner-padding: 5px !important;
+}
+
 #tabbrowser-tabs {
     padding: 3px !important;
     margin-left: 2px !important;
     margin-right: 2px !important;
 }
 
-:root {
-    --tab-min-height: 20px !important;
-    --tab-max-height: 20px !important;
-}
 
 .tab-close-button {
     height: 15px !important;
@@ -36,7 +38,7 @@
     background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
-// auto show close button 
+/* auto show close button */
 .tabbrowser-tab:not([pinned]):not(:hover) .tab-close-button {
     visibility: collapse !important;
 }
@@ -44,4 +46,60 @@
 .tabbrowser-tab:not([pinned]):hover .tab-close-button {
     visibility: visible !important;
     display: block !important;
+}
+
+/* Fix Tiny Reader Mode Button */
+#reader-mode-button {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+/* Small URL Bar Height */
+:root,
+#urlbar-container,
+#search-container,
+#nav-bar-customization-target,
+#nav-bar {
+    --urlbar-min-height: 28px !important;
+}
+
+/* Make Toolbar Small */
+#urlbar-container,
+#search-container,
+#nav-bar-customization-target,
+#nav-bar {
+    --urlbar-toolbar-height: 20px !important;
+    --urlbar-container-height: 37px !important;
+}
+
+/* Remove Top And Bottom Padding Of URL Bar */
+#urlbar-container {
+    padding-top: 8px !important;
+    padding-bottom: 0px !important;
+}
+
+
+#urlbar-input-container {
+    overflow: visible !important
+}
+
+/* URL Bar Fade Animation On Hover */
+#urlbar-input-container:hover {
+    background-color: #23252F !important;
+}
+
+#urlbar-input-container {
+    transition: background-color .3s ease-in;
+}
+
+/* Make Reload Button Smaller */
+#reload-button>.toolbarbutton-icon, #stop-button>.toolbarbutton-icon {
+    padding: 6.5px !important;
+}
+
+
+/* Make Back / Forawrd Button Smaller */
+#back-button>.toolbarbutton-icon,
+#forward-button>.toolbarbutton-icon {
+    padding: 5.5px !important;
 }
