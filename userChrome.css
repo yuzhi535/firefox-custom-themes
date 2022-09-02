@@ -31,7 +31,7 @@
 }
 
 .tab-background {
-    background-color: rgba(37, 37, 37, 0.9) !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 .tabbrowser-tab:hover>.tab-stack>.tab-background {
